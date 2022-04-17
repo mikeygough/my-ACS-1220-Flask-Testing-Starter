@@ -30,6 +30,8 @@ python3 -m unittest discover
 
 All of the tests should pass, but that's because they're not all filled out yet!
 
+**A test is passing unless it throws an error!** That means an empty test case passes! 
+
 Go to `unit_tests/test_string_functions.py` and read over the first two unit tests. I added some comments to the first one to annotate the steps: We choose a scenario, set up the expected output, then call the function to determine the actual output. Then, we compare the expectation vs. reality by using an assertion.
 
 Fill out the rest of the unit tests by filling in at least 2 scenarios for each of the remaining tests. (The scenarios I've given are "long string" and "short string", but you can change them up!)
