@@ -50,17 +50,17 @@ class StringTests(TestCase):
 
     def test_sarcastic_long(self):
         """Test sarcastic-ifying a long string."""
-        expected = ""
-        actual = ""
+        expected = "ThE sArCaStIc StRiNg"
+        actual = sarcastic("The sarcastic string")
         self.assertEqual(actual, expected)
 
     def test_sarcastic_short(self):
         """Test sarcastic-ifying a short string."""
-        expected = ""
-        actual = ""
+        expected = "GoOd OnE!"
+        actual = sarcastic("Good One!")
         self.assertEqual(actual, expected)
 
     def test_find_longest_word_empty(self):
-        expected = ""
-        actual = ""
+        expected = None
+        actual = find_longest_word("")
         self.assertEqual(actual, expected)
